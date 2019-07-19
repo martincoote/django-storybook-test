@@ -24,5 +24,3 @@ stories.add('Test', () => {
         // Return template tag as evaluated JS (template tags are replaced with context)
         return eval('`'+dj_test+'`');
     });
-
-stories.add('Knob', () => text('test Text', 'edit me'))
